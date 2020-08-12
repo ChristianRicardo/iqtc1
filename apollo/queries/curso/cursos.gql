@@ -1,0 +1,16 @@
+query Cursos {  
+    cursos {
+    id,
+    nome,
+    descricao,
+    preco,
+    categoria{
+        nome
+    },
+    prist,
+    horas,
+    imagem {
+      url
+    }
+  }
+}

@@ -1,0 +1,17 @@
+query Curso($id: ID!) {  
+  curso(id: $id) {
+    imagem{
+    url
+    } ,
+    id,
+    nome,
+    descricao,
+    preco,
+    prist,
+    horas,
+    categoria{
+        nome
+    },
+
+  }
+}
